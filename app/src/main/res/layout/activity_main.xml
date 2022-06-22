@@ -5,6 +5,7 @@
 
     <data>
 
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -120,6 +121,7 @@
                     tools:ignore="HardcodedText,SpUsage" />
 
                 <Space
+
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
@@ -164,6 +166,7 @@
                     tools:ignore="HardcodedText,SpUsage" />
 
                 <Space
+
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
@@ -264,7 +267,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
-                    android:text=""
                     android:textColor="@color/SI_Grey"
                     android:textSize="24sp" />
 
