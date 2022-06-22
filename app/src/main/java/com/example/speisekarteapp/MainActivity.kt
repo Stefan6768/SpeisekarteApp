@@ -84,6 +84,18 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+    //Zusatzaufgabe resetButton
+    binding.resetButton.setOnClickListener {
+      drink1.count = 0
+      binding.drink1Count.text = 0.toString()
+      drink2.count = 0
+      binding.drink2Count.text = 0.toString()
+      drink3.count = 0
+      binding.drink3Count.text = 0.toString()
+     //totalPrice reset
+      binding.totalPrice.text = 0.toString()
+
+    }
 
   }
 
