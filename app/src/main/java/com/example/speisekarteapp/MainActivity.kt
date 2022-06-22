@@ -2,12 +2,22 @@ package com.example.speisekarteapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
+import com.example.speisekarteapp.databinding.ActivityMainBinding
 import kotlin.math.round
 
 /**
  * Main Activity, dient als Einstiegspunkt für die App
  */
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+
+    override fun oncreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding = DataBindingUtil.setContentView(this,
+        R.layout.activity_main)
+    }
 
     /* -------------------- Klassen Variablen -------------------- */
     private var bill: Float = 0f

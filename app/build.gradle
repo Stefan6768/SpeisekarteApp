@@ -30,6 +30,10 @@ android {
         jvmTarget = '1.8'
     }
     // TODO Schreibe hier deinen Code
+    buildFeatures {
+        dataBinding true
+    }
+
 }
 
 dependencies {
